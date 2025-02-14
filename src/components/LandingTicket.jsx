@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import "../styles/LandingTicket.css";
 import TicketCard from './TicketCard';
-import { Upload, Button, Input, message } from 'antd';
+import { Upload, Button, Input } from 'antd';
 import uploadIcon from "../assets/icon.svg";
 import ticketIcon from "../assets/Ticket.svg";
 import QRCode from 'react-qr-code';
@@ -13,7 +13,7 @@ const LandingTicket = () => {
   const [selectedTicket, setSelectedTicket] = useState(null);
   const [profileUrl, setProfileUrl] = useState("");
   const [profileImage, setProfileImage] = useState(null);
-  const [ticketData, setTicketData] = useState(null); // Store ticket and user data
+  const [ticketData, setTicketData] = useState(null); 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [ticketQty, setTicketQty] = useState("");
@@ -63,7 +63,7 @@ const LandingTicket = () => {
     setEmail("");
     setTicketQty(""); 
     setProjectDetails("");
-    localStorage.removeItem("ticketData"); // Clear localStorage if necessary
+    localStorage.removeItem("ticketData"); 
   };
 
   const handleTicketSelect = (ticketType) => {
@@ -81,12 +81,12 @@ const LandingTicket = () => {
       projectDetails: projectDetails
     };
 
-    console.log(data); // Check if all values are correct
+    console.log(data); 
 
-    // Update the state with all data
+    
     setTicketData(data);
 
-    // Save the complete data to localStorage
+   
     localStorage.setItem("ticketData", JSON.stringify(data));
     handleNext();
   };
@@ -210,7 +210,7 @@ const LandingTicket = () => {
                 <Upload
                   beforeUpload={(file) => {
                     handleFileChange(file);
-                    return false; // Prevent default upload
+                    return false; 
                   }}
                   showUploadList={false}
                 >
