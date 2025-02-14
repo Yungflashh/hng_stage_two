@@ -1,0 +1,547 @@
+/* Progress Bar Container */
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background: #0E464F;
+    margin: 20px 0px;
+    border-radius: 5px;
+  }
+  
+  /* Progress Bar Fill */
+  .progress {
+    height: 100%;
+    background: #24A0B5;
+    border-radius: 5px;
+  }
+  
+
+.ticket-container{
+    width: 700px;
+    height:auto;
+    border-radius: 40px;
+    border-width: 1px;
+    padding: 48px;
+    gap: 32px;
+    border: 1px solid #0E464F;
+    
+
+}
+
+.ticket-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.ticket-text h2{
+    font-family: JejuMyeongjo;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: white;
+}
+
+.ticket-text p{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: white;
+
+}
+
+.event-details{
+    width: 604px;
+    height: auto;
+    border-radius: 32px;
+    border-width: 1px;
+    padding: 24px;
+    gap: 32px;
+    background: #08252B;
+    border: 1px solid #0E464F;
+    color: white;
+   
+
+
+}
+
+.event-title{
+    width: 556px;
+    border-radius: 24px;
+    padding: 24px;
+    gap: 8px;
+    border-width: 0px, 2px, 2px, 2px;
+    border-style: solid;
+    border-color: #07373F;
+    backdrop-filter: blur(14px);
+    background: linear-gradient(0deg, rgba(10, 12, 17, 0.1), rgba(10, 12, 17, 0.1)),
+radial-gradient(103.64% 57.39% at 14.02% 32.06%, rgba(36, 160, 181, 0.2) 0%, rgba(36, 160, 181, 0) 100%) ;
+    margin-bottom: 30px;
+}
+
+
+
+.event-title-text h2{
+    font-family: Road Rage;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 62px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--color-grey-98, #FAFAFA);
+
+
+}
+
+.event-title-text p{
+        width: 340px;
+    height: 48px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--color-grey-98, #FAFAFA);
+    margin: auto;
+
+}
+
+.event-location{
+    display: flex;
+}
+
+
+.line{
+    /* width: 12px; */
+    height: 20px;
+    border: 1px solid white;
+    margin-right: 10px;
+
+}
+
+.hr{
+    background: #07373F;
+    width: 556px;
+    height: 6px;
+    text-align: center;
+    margin: auto;
+
+}
+
+
+
+.ticket-type-container{
+    color: white;
+}
+
+.ticket-select{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 556px;
+    height: 186px;
+    border-radius: 24px;
+    border-width: 1px;
+    padding: 16px;
+    gap: 16px;
+    background: linear-gradient(0deg, #02191D, #02191D),
+    radial-gradient(52.52% 32.71% at 50% 97.66%, rgba(36, 160, 181, 0.2) 0%, rgba(36, 160, 181, 0) 100%);
+
+
+}
+
+
+
+.order-qty select{
+    width: 556px;
+    height: 48px;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 10px;
+    border: 1px solid #07373F;
+    background: transparent;
+    color: white;
+
+}
+
+
+
+.order-qty select:focus {
+    background-color:#07373F;
+    color: white; 
+    border: 2px solid #4CAF50; 
+  }
+
+.cta{
+    width: 556px;
+    height: 48px;
+    border-radius: 24px;
+    border-width: 1px;
+    gap: 32px;
+    padding: 10px;
+    background: #041E23;
+    border: 1px solid #0E464F;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cta button{
+    width: 214px;
+    height: 48px;
+    border-radius:10px;
+    border-width: 1px;
+    gap: 8px;
+   padding: 10px;
+
+}
+
+.cta>:nth-child(1){
+    background: transparent;
+    color: #24A0B5;
+    border: 1px solid #0E464F
+
+}
+.cta>:nth-child(2){
+    background: #24A0B5;
+    color: white;
+    border: 1px solid #0E464F
+
+}
+
+
+
+/* Attendee Details css is here  */
+
+.photo-select-container{
+    width: 556px;
+    height: 344px;
+    border-radius: 24px;
+    border-width: 1px;
+    padding: 24px;
+    gap: 32px;
+    background: #052228;
+    border: 1px solid #07373F;
+
+
+}
+
+.photo-select-container h2{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
+
+.photo-upload-container{
+    width: 508px;
+    height: auto;
+    gap: 10px;
+    background: #04161a;
+    border: 1px solid #0E464F;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.image-upload{
+    width: 240px;
+    height: 240px;
+    border-radius: 32px;
+    padding: 24px;
+    gap: 16px;
+    background: #0E464F;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+    margin: 10px 0px;
+    
+}
+
+.image-upload:hover{
+    background-color:#05252a ;
+
+}
+
+.attendee-bio{
+    display: flex;
+    flex-direction: column;
+}
+
+.attendee-bio input, textarea{
+    width: 556px;
+    height: 48px;
+    border-radius:10px;
+    border-width: 1px;
+    padding: 10px;
+    border: 1px solid #07373F;
+    background: transparent;
+    margin: 20px 0px;
+}
+.attendee-bio input:focus{
+    color: white;
+    border: none;
+   
+}
+.bio{
+    width: 556px;
+    height: 159px;
+    gap: 8px;
+
+}
+
+.ticket-image-container{
+    position: relative;
+    /* border: 2px solid red; */
+}
+
+
+.image-ticket{
+    width: 600px;
+}
+#qr-code{
+    position: absolute;
+    width: 145px;
+    top: -40px;
+    left: 20px;
+}
+
+.qr-text {
+    position: absolute;
+    top: 0px;
+    left: 190px;
+   
+
+
+}
+
+.qr-text h2{
+
+    font-family: Road Rage;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 54.94px;
+    letter-spacing: 0%;
+    margin-bottom: -10px;
+
+}
+@media (max-width:900px){
+    .ticket-container{
+        width: 335px;
+        height:auto;
+        border-radius: 32px;
+        border-width: 1px;
+        padding: 24px;
+        gap: 32px;
+        /* border: 2px solid red; */
+        
+
+    }
+
+    .ticket-text{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .event-details{
+        width: 100%;
+        height: auto;
+        /* border: 2px solid red; */
+        padding: 10px;
+        
+    }
+    .event-title{
+        width: 287px;
+        height: auto;
+        border-radius: 24px;
+        justify-content: space-between;
+        padding-top: 16px;
+        padding-right: 24px;
+        padding-bottom: 16px;
+        padding-left: 24px;
+        border-right-width: 2px;
+        border-bottom-width: 2px;
+        border-left-width: 2px;
+        text-align: center;
+       
+        
+
+    }
+
+    .event-title-text{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .event-title-text h2{
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: 0%;
+        text-align: center;
+
+    }
+
+    .event-title-text p{
+        width: 239px;
+        height: 63px;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0%;
+        text-align: center;
+
+
+    }
+
+    .event-location{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .event-location p{
+        margin-top: 20px;
+        margin-bottom: -50px;
+    }
+
+    .line{
+        display: none;
+    }
+    .hr{
+        width: 287px;
+        height: 4px;
+
+    }
+
+
+
+
+    .ticket-type-container{
+        width: 287px;
+        height: 307px;
+        gap: 8px;
+
+    }
+
+    .ticket-select{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 287px;
+        height: 275px;
+        border-radius: 24px;
+        border-width: 1px;
+        padding: 16px;
+        gap: 16px;
+
+    }
+    .order-qty{
+      padding: 10px;
+    }
+    .order-qty select{
+        width: 287px;
+        height: 48px;
+    }
+
+    .cta{
+        width: 287px;
+        height: 112px;
+        gap: 16px;
+        flex-direction: column-reverse;
+        border: none;
+        background: none;
+     
+
+    }
+
+    .cta button{
+        width:100%;
+        height: 48px;
+
+    }
+
+    .photo-select-container{
+        width: 287px;
+        height: 344px;
+        border-radius: 24px;
+        border-width: 1px;
+        padding: 24px;
+        gap: 32px;
+
+    }
+
+    .photo-upload-container{
+        width: 239px;
+        height: 240px;
+        gap: 10px;
+
+    }
+
+    .attendee-bio input, textarea{
+        width: 287px;
+        height: 48px;
+        border-radius: Radius/reg 2;
+        border-width: 1px;
+        padding: Radius/reg 2;
+        gap: Radius/reg;
+
+    }
+
+    .bio{
+        width: 287px;
+        height: 127px;
+
+
+    }
+
+
+    .image-ticket{
+        width: 287px;
+    }
+    #qr-code{
+        position: absolute;
+        width: 78px;
+        top: -80px;
+        left: 6px;
+    }
+    
+    .qr-text {
+        position: absolute;
+        top: -20px;
+        left: 100px;
+       
+    
+    
+    }
+    
+    .qr-text h2{
+    
+        font-family: Road Rage;
+        font-weight: 400;
+        font-size: 19.79px;
+        line-height: 54.94px;
+        letter-spacing: 0%;
+        margin-bottom: -10px;
+    
+    }
+
+    .qr-text p{
+        font-size: 8.66px;
+    }
+}

@@ -1,0 +1,79 @@
+.ticket-card-container{
+    display: flex;
+    align-items: center;
+    width: 242px;
+    height: 65px;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 8px;
+    gap: 8px;
+    border: 1px solid #07373F;
+    background:  transparent;
+    color: white;
+    justify-content: space-between;
+
+}
+
+.ticket-card-container:hover {
+    background-color:#072e35;
+  }
+
+  .ticket-card-container.selected {
+    border: 1px solid #197686;
+    background: #197686;
+    box-shadow: 0 4px 8px rgba(0, 128, 0, 0.3);
+  }
+
+.ticket-card-container h2{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
+
+.ticket-card-container p{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0%;
+
+}
+
+#price-tag{
+    width: 80px;
+    height: 38px;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 8px;
+    gap: 10px;
+    border:1px solid #2BA4B9;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: right;
+    background: #0E464F;
+    
+
+
+}
+
+
+
+
+@media (max-width:900px){
+    .ticket-card-container{
+        width: 242px;
+        height: 65px;
+        padding: 8px;
+        gap: 8px;
+
+    }
+
+
+
+}
